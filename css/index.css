@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    //font-size: 16px;
 }
 
 .bigFont {
@@ -30,5 +30,9 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-    
 
+@media screen and (max-width:400px) {
+    body {
+        font-size:0.8em;
+    }
+}
